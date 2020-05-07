@@ -1,0 +1,155 @@
+{
+	"games" : [
+		{
+		    "questions" : [
+		        {
+		            "question" : "Which of the following should you do to restrict access to company files and devices?",
+		            "content" : [
+		                "Update your software once a year.",
+		                "Share passwords only with colleagues you trust.",
+		                "Access information via an open Wi-Fi network.",
+		                "Use multi-factor authentication."
+		            ],
+		            "correct" : 3
+		        },
+		        {
+		            "question" : "Which of this is the strongest password",
+		            "content" : [
+		                "abcd1234",
+		                "xPh1230252rpfrkfwefoi3or0",
+		                "a@pQr2591v!63",
+		                "johnnydoe"
+		            ],
+		            "correct" : 2
+		        },
+		        {
+		            "question" : "You get a supicious email with a link, you should",
+		            "content" : [
+		                "Open it immediately ",
+		                "Open the link in incognito",
+		                "Report the link to the company IT security",
+		                "Forward it to coworker"
+		            ],
+		            "correct" : 2
+		        },
+		        {
+		            "question" : "By opening malicious emails and pop-ups you are exposing the company to and providing personal information",
+		            "content" : [
+		                "Phishing",
+		                "Ransomware Attacks",
+		                "Identity theft",
+		                "All of these"
+		            ],
+		            "correct" : 3
+		        },
+		        {
+		            "question" : "How should you manage your passwords",
+		            "content" : [
+		                "By remembering all of them",
+		                "Writing down in a notebook",
+		                "Using encryption based password manager",
+		                "Keeping it the same everywhere"
+		            ],
+		            "correct" : 2
+		        },
+				{
+				    "correct": 3,
+				    "content": [
+				        "Use home wifi only",
+				        "Use personal VPN like NordVPN",
+				        "Connect through public",
+					"Use company's private VPN"
+				    ],
+				    "question": "When you are working from home, you should"
+				},
+				{
+				    "correct": 2,
+				    "content": [
+				        "Antivirus Software",
+"Company IT Security team", "Well setup firewall", "Police and Government"
+				    ],
+				    "question": "What is the first line of defence against cyberattacks?"
+				},
+				{
+				    "correct": 1,
+				    "content": [
+				        "Paying the money when it happens",
+"Data backup", "Strong antivirus software", "Using secured VPN"
+				    ],
+				    "question": "What is the best defence against ransomware attack"
+				},
+				{
+				    "correct": 2,
+				    "content": [
+				        "Can be ignored",
+				        "Can be delayed",
+				        "Should be done immediately when released",
+				        "Should be done in batches"
+				    ],
+				    "question": "Software updates"
+				},
+				{
+				    "correct": 1,
+				    "content": [
+				        "Leave the laptop on your desk unlocked and logged in",
+				        "Log out and if possible, physically lock the device",
+				        "Take it with you",
+				        "Leave it with a colleague"
+				    ],
+				    "question": "When going out for a coffee, you should"
+				},
+				{
+				    "correct": 3,
+				    "content": [
+				        "Open or run it immediately",
+				        "Delete it",
+				        "Open it in a virtual environment",
+				        "Get it scanned with antivirus software"
+				    ],
+				    "question": "After downloading an email attachment, you should"
+				},
+				{
+				    "correct": 3,
+				    "content": [
+				        "Share them",
+				        "Share them after encrypting them",
+				        "Report the colleague",
+				        "Politely decline"
+				    ],
+				    "question": "Your colleague needs to access some information quickly and is asking for your credentials"
+				},
+				{
+				    "correct": 1,
+				    "content": [
+				        "Access company work from cybercafe",
+				        "Consult with your boss and the IT security department",
+				        "Don't do the work",
+				        "Access company work from spouse's laptop"
+				    ],
+				    "question": "You are on holiday but need to do some work urgently and don't have office laptop with you"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+				        "93%",
+				        "25%",
+				        "100%",
+				        "50%"
+				    ],
+				    "question": "What percentage of employees engage in atleast some poor data security practice?"
+				},
+				{
+				    "correct": 3,
+				    "content": [
+				        "Get you fired",
+				        "Cause huge loss to the organization",
+				        "Can harm you",
+				        "All of these"
+				    ],
+				    "question": "Not following company security policies and training can"
+				}
+		    ]
+		
+		}
+	]
+}

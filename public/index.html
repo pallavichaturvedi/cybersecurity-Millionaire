@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="http://fonts.googleapis.com/css?family=Slab" rel="stylesheet" type="css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<!-- Game state Audio Tags -->
+	<audio id="background" src='e/background.mp4'></audio>
+	<audio id="rightmusic" src='e/right.mp4'></audio>
+	<audio id="wrongmusic" src='e/wrong.mp4'></audio>
+
+	<!-- End Game -->
+	<div id="game-over">
+	</div>
+
+	<!-- Game interface -->
+	<div id="game">
+		<div id="cont">
+			<img src="img/symbol.jpg" id="symbol" />
+			<ul id="levels">
+				<li data-amt="1000000" data-bind="{active: level 15}" d-level="15">$1,000,000</li>
+				<li data-amt="500000" data-bind="{active: level 14}" d-level="14">$500,000</li>
+				<li data-amt="250000" data-bind="{active: level 13}" d-level="13">$250,000</li>
+				<li data-amt="125000" data-bind="{active: level 12}" d-level="12">$125,000</li>
+				<li data-amt="64000" data-bind="{active: level 11}" d-level="11">$64,000</li>
+				<li data-amt="32000" data-bind="{active: level 10}" d-level="10">$32,000</li>
+				<li data-amt="16000" data-bind="{active: level 9}" d-level="9">$16,000</li>
+				<li data-amt="8000" data-bind="{active: level 8}" d-level="8">$8,000</li>
+				<li data-amt="4000" data-bind="{active: level 7}" d-level="7">$4,000</li>
+				<li data-amt="2000" data-bind="{active: level 6}" d-level="6">$2,000</li>
+				<li data-amt="1000" data-bind="{active: level 5}" d-level="5">$1,000</li>
+				<li data-amt="500" data-bind="{active: level 4}" d-level="4">$500</li>
+				<li data-amt="300" data-bind="{active: level 3}" d-level="3">$300</li>
+				<li data-amt="200" data-bind="{active: level 2}" d-level="2">$200</li>
+				<li data-amt="100" data-bind="{active: level 1}" d-level="1">$100</li>
+			</ul>
+
+		</div>
+		<div id="options">
+			<div id="fifty" class="options-button" data-bind="press: fifty"></div>
+			<div id="phone-friend" class="options-button" data-bind="press: fOut"></div>
+			<div id="audience" class="options-button" data-bind="press: fOut"></div>
+			<div id="cash">$<span data-bind="text: formatcash()"></span></div>
+		</div>
+		<div id="question-box">
+			<span class="small-text">Q:</span>
+			<span class="content" data-bind="text: getQuestionText()"></span>
+		</div>
+		<div id="answer-box">
+			<div id="answer-one" class="answer" data-bind="press: () => { answerQuestion(0, $element.id) }">
+				<span class="small-text">A.</span><span data-bind="text: getAnswerText(0)"></span>
+			</div>
+			<div id="answer-two" class="answer" data-bind="press: () => { answerQuestion(1, $element.id) }">
+				<span class="small-text">B.</span><span data-bind="text: getAnswerText(1)"></span>
+			</div>
+			<div id="answer-three" class="answer" data-bind="press: () => { answerQuestion(2, $element.id) }">
+				<span class="small-text">C.</span><span data-bind="text: getAnswerText(2)"></span>
+			</div>
+			<div id="answer-four" class="answer" data-bind="press: () => { answerQuestion(3, $element.id) }">
+				<span class="small-text">D.</span><span data-bind="text: getAnswerText(3)"></span>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-2.0.4.min.js"></script>
+	<script type="text/javascript" src="js/knockout-3.0.0.js"></script>
+	<script type="text/javascript" src="js/millionaire.js"></script>
+</body>
+
+</html>
